@@ -158,15 +158,33 @@ main .item .pic img {
     width: 100%;
 }
 main .m-b {
+    width: 100%;
+    background-color: #F7F8F9;
+}
+main .m-b-sev {
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
+}
+main .m-b-title {
+    display: block;
+    text-align: center;
+    padding: 24px 0px;
+    font-size: 24px;
+}
+main .m-b-sev .serve {
+    width: calc((100% - 34px * 2 ) / 3);
+    padding: 0 34px 34px;
+    box-sizing: border-box;
 }
 
-main .m-b .serve {
-    width: calc((100% - 34px * 2 ) / 3);
+main .m-b-sev .serve img {
+    vertical-align: top;
+    border-radius: 50%;
+    margin: 5px 0;
 }
+
 
 
 
