@@ -185,7 +185,83 @@ main .m-b-sev .serve img {
     margin: 5px 0;
 }
 
+.main-a {
+    margin: auto;
+    padding: 24px;
+    width: 1200px;
+}
+.main-a .pic {
+    width: 75%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.main-a h3 {
+    text-align: center;
+    font-size: 24px;
+    color: #052855;
+    margin: 24px;
+}
 
+.main-a.pic img {
+    width: 100%;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-3 {
+    width: 100%;
+    background-color: #F7F8F9;
+}
+.main-3 h3 {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 24px;
+    color: #052855;
+}
+.main-3 p {
+    padding: 24px;
+    font-size: 18px;
+    color: #5d6a7a;
+    text-align: center;
+}
+footer {
+    width: 100%;
+    background-color: #052855;
+}
+footer .top {
+    margin: auto;
+    width: 75%;
+    display: flex;
+    list-style: none;
+    padding: 24px 48px;
+    width: 80%;
+    gap: 36px;
+}
+footer .top li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+footer .link {
+    margin: auto;
+    width: 75%;
+    border-top: 1px solid #fff;
+    display: flex;
+    padding: 24px 48px;
+    justify-content: space-between;
+}
+
+footer .link ul li{
+    list-style: none;
+    padding: 12px 0;
+    color: #FFF;
+}
+
+footer .link ul li a {
+    text-decoration: none;
+    color: #ebf1f8;
+}
 
 
 
